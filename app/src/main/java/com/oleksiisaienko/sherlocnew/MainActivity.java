@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
                 toast1.show();
                 break;
             case R.id.buttonDialog :
-                AlertDialog.Builder builder = new AlertDialog.Builder(this);
+                AlertDialog.Builder builder = new AlertDialog.Builder(this, R.style.AppCompatAlertDialogStyle);
                 builder.setTitle("Dialog Window");
                 builder.setMessage("Покормить кота?");
                 builder.setPositiveButton("OK",null);

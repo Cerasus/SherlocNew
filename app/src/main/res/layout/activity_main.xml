@@ -44,10 +44,10 @@
         android:padding="10dp"
         android:text="@string/buttonCounterCrow"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintEnd_toStartOf="@+id/guideline"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/activityButtonShowMessage2"
+        app:layout_constraintTop_toBottomOf="@+id/activityButtonShowMessage"
         app:layout_constraintVertical_bias="0.0" />
 
     <Button
@@ -61,10 +61,10 @@
         android:text="@string/activityMainButtonAbout"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.936"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/buttonTrafficLight"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.72" />
 
     <Button
         android:id="@+id/buttonTrafficLight"
@@ -77,9 +77,9 @@
         android:text="@string/buttonTrafficLightMainActivity"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonCounterCrow"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/buttonCounterCrow"
+        app:layout_constraintTop_toBottomOf="@+id/activityButtonShowMessage2"
         app:layout_constraintVertical_bias="0.0" />
 
     <Button
@@ -92,8 +92,8 @@
         android:padding="10dp"
         android:text="@string/mainActivityButtonToast"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.50"
+        app:layout_constraintEnd_toStartOf="@+id/guideline"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/buttonChoose"
         app:layout_constraintVertical_bias="0.0" />
@@ -109,24 +109,31 @@
         android:text="@string/mainActivityButtonToast2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/activityButtonShowMessage"
+        app:layout_constraintHorizontal_bias="0.021"
+        app:layout_constraintStart_toEndOf="@+id/activityButtonShowMessage"
+        app:layout_constraintTop_toBottomOf="@+id/buttonChoose"
         app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/buttonDialog"
-        android:layout_width="wrap_content"
+        android:layout_width="160dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:onClick="onClick"
         android:text="@string/activityMainButtonDialog"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintEnd_toStartOf="@+id/guideline"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonAboutProgram"
+        app:layout_constraintTop_toBottomOf="@+id/buttonCounterCrow"
         app:layout_constraintVertical_bias="0.0" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="205dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

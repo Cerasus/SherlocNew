@@ -73,6 +73,9 @@ public class MainActivity extends AppCompatActivity {
                 builder.setNegativeButton("Cancel", null);
                 builder.show();
                 break;
+            case R.id.buttonDisplay :
+                startActivity(new Intent(MainActivity.this, DisplayActivity.class));
+                break;
         }
     }
 

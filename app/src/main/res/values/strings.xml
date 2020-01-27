@@ -29,4 +29,5 @@
     <string name="mainActivityButtonToast2">Show message - 2</string>
     <string name="mainActivityToastMessage2">Really scary message</string>
     <string name="activityMainButtonDialog">Dialod Window</string>
+    <string name="activityMainButtonDisplay">display</string>
 </resources>

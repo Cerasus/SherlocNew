@@ -133,7 +133,21 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_begin="205dp" />
+        app:layout_constraintGuide_begin="179dp" />
+
+    <Button
+        android:id="@+id/buttonDisplay"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:onClick="onClick"
+        android:text="@string/activityMainButtonDisplay"
+        app:layout_constraintBottom_toTopOf="@+id/buttonAboutProgram"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.419"
+        app:layout_constraintStart_toEndOf="@+id/buttonDialog"
+        app:layout_constraintTop_toBottomOf="@+id/buttonTrafficLight"
+        app:layout_constraintVertical_bias="0.0" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -30,4 +30,11 @@
     <string name="mainActivityToastMessage2">Really scary message</string>
     <string name="activityMainButtonDialog">Dialod Window</string>
     <string name="activityMainButtonDisplay">display</string>
+    <string name="activityDisplayButtonSetting">Display Setting</string>
+    <string name="activityDisplayButtonDispSize">Display Size</string>
+    <string name="activityDisplayButtonDispMetrics">Display Metrics</string>
+    <string name="activityDisplayButtonDispBrightness">Display Brightness</string>
+    <string name="activityDisplayTextViewBrightness">Install Brightness</string>
+    <string name="activityDisplayTextViewBrightnessVoule">50%</string>
+    <string name="activityDisplayButtonDispBrightnessSetting">Set Brightness 50%</string>
 </resources>

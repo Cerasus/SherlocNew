@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.oleksiisaienko.sherlocnew">
+
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"
+        tools:ignore="ProtectedPermissions" />
 
     <application
         android:allowBackup="true"
@@ -9,6 +13,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
         <activity android:name="com.oleksiisaienko.sherlocnew.MainActivity"
             android:theme="@style/ActivityOrange">
             <intent-filter>
@@ -31,6 +36,9 @@
         <activity android:name="com.oleksiisaienko.sherlocnew.AboutProgramActivity"
             android:theme="@style/Theme.AppCompat.Dialog">
         </activity>
+        <activity android:name=".DisplayActivity">
+        </activity>
+
     </application>
 
 </manifest>
